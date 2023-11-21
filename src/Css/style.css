@@ -1,0 +1,69 @@
+body {
+    background-image: url(../img/banner\ baratie.jpg); /* Define uma imagem de fundo para o corpo */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz a imagem de fundo cobrir todo o elemento body */
+    background-position: center auto; /* Centraliza a imagem de fundo horizontalmente e a alinha verticalmente ao centro */
+    background-attachment: fixed; /* Faz com que a imagem de fundo fique fixa à medida que a página é rolada */
+    padding: 0px 0px; /* Define preenchimento zero nas margens do corpo */
+    margin: 0cm auto; /* Define margens zero nas laterais esquerda e direita e centraliza o corpo verticalmente */
+}   
+    
+header {
+    background-color: #333;  /* Define a cor de fundo do cabeçalho como cinza escuro */
+    color: #fff; /* Define a cor do texto no cabeçalho como branco */
+    text-align: center ; /* Centraliza o texto no cabeçalho horizontalmente */
+    width: 100vw;  /* Define a largura do cabeçalho como 100% da largura da janela do navegador */
+    height: 20px; /* Define a altura do cabeçalho como 20 pixels */
+    border: none;  /* Remove qualquer borda do cabeçalho */
+    padding: 15px 0px; /* Adiciona preenchimento de 15 pixels acima e abaixo do conteúdo no cabeçalho */
+ 
+   }
+
+h1 {
+    margin: 0; /* Remove as margens do título h1 para evitar espaços em branco indesejados */
+}
+
+main {
+    width: 80%;  /* Define a largura do elemento main como 80% */
+    max-width: 400px;  /* Define a largura máxima do elemento main como 400 pixels */
+    margin: 20px auto;  /* Centraliza o elemento main horizontalmente com margens de 20 pixels acima e abaixo */
+    padding: 35px;  /* Adiciona preenchimento interno de 35 pixels dentro do elemento main */
+    background-color: #fff;  /* Define a cor de fundo do elemento main como branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Adiciona uma sombra suave ao elemento main */
+    border-radius: 5px;  /* Adiciona bordas arredondadas ao elemento main */
+}
+
+label {
+    display: block;  /* Define os rótulos como elementos de bloco para que apareçam em uma linha separada */
+    margin-bottom: 5px;  /* Adiciona um espaço de 5 pixels abaixo de cada rótulo */
+}
+
+input, button {
+    width: 100%;  /* Define a largura de campos de entrada e botões como 100% */
+    padding: 10px;  /* Adiciona preenchimento interno de 10 pixels */
+    margin-bottom: 10px;  /* Adiciona um espaço de 10 pixels abaixo de campos de entrada e botões */
+    border: 1px solid #ccc;  /* Adiciona uma borda de 1 pixel com cor cinza claro */
+    border-radius: 3px;  /* Adiciona bordas arredondadas */
+}
+
+button {
+    background-color: #333;  /* Define a cor de fundo do botão como cinza escuro */
+    color: #fff;  /* Define a cor do texto no botão como branco */
+    cursor: pointer;  /* Define o cursor do mouse como "apontar" para indicar que o botão é clicável */
+    border: none;  /* Remove qualquer borda do botão */
+}
+
+button:hover {
+    background-color: #555;  /* Quando o mouse passa sobre o botão, a cor de fundo muda para cinza mais escuro */
+}
+
+footer {
+    text-align: center;  /* Centraliza o texto no rodapé horizontalmente */
+    padding: 17px 0px;  /* Adiciona preenchimento de 17 pixels acima e abaixo do conteúdo no rodapé */
+    width: 100vw;  /* Define a largura do rodapé como 100% da largura da janela do navegador */
+    height: 50px;  /* Define a altura do rodapé como 50 pixels */
+    border: none;  /* Remove qualquer borda do rodapé */
+    margin: 0px auto;  /* Centraliza o rodapé horizontalmente com margens zero nas laterais */
+    background-color: #333;  /* Define a cor de fundo do rodapé como cinza escuro */
+    color: #fff;  /* Define a cor do texto no rodapé como branco */
+}
